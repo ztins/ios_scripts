@@ -1,0 +1,10 @@
+#!name=Xmind 解锁
+#!desc= Xmind 解锁 Pro，已知可解锁 23.06.1422 和 23.08.04100 版本，后者可在爱思助手安装，需登录大陆区账号
+#!author = chxm1023[https://github.com/chxm1023]
+#!homepage = https://github.com/chxm1023/Rewrite/tree/main
+
+[Script]
+http-response ^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js, requires-body=true, timeout=60, tag=Xmind
+
+[MITM]
+hostname = *xmind.*
