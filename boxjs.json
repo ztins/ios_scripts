@@ -1,0 +1,58 @@
+{
+	"id": "ztins.sub",
+	"name": "💎ztins",
+	"author": "@ztins",
+	"description": "ztins的搬运",
+	"icon": "https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/ztins.png",
+	"repo": "https://github.com/ztins",
+	"apps": [
+		{
+			"id": "ztins.youtube",
+			"name": "YouTube",
+			"descs_html": ["该插件来自<a href=\"https://hub.kelee.one/">可莉仓库</a>", "特别致谢<a href=\"https://github.com/luestr">可莉</a>大佬", "修改后记得点击底部的\"保存\"。"],
+			"keys": ["@ztins.youtube.settings", "@ztins.youtube.caches"],
+			"settings": [
+				{
+				    "id": "@ztins.youtube.settings.upload",
+				    "name": "隐藏上传按钮",
+				    "type": "boolean",
+				    "val": true,
+				},
+				{
+				    "id": "@ztins.youtube.settings.shorts",
+				    "name": "隐藏Shorts按钮",
+				    "type": "boolean",
+				    "val": false,
+				},
+				{
+				    "id": "@ztins.youtube.settings.para",
+				    "name": "隐藏选段按钮",
+				    "type": "boolean",
+				    "val": false,
+				},
+				{
+				    "id": "@ztins.youtube.settings.cctrans",
+					"name": "字幕翻译语言",
+					"type": "selects",
+					"val": "zh-Hans",
+					"items": [{ "key": "zh-Hans", "label": "中文简体" }, { "key": "zh-Hant", "label": "中文繁体" }, { "key": "ja", "label": "日语" }, {"key": "ko", "label": "韩语" }, {"key": "en", "label": "英语" }, {"key": "off", "label": "关闭" }],
+				},
+				{
+				    "id": "@ztins.youtube.settings.lyctrans",
+					"name": "歌词翻译语言",
+					"type": "selects",
+					"val": "zh-Hans",
+					"items": [{ "key": "zh-Hans", "label": "中文简体" }, { "key": "zh-Hant", "label": "中文繁体" }, { "key": "ja", "label": "日语" }, {"key": "ko", "label": "韩语" }, {"key": "en", "label": "英语" }, {"key": "off", "label": "关闭" }],
+				},
+				{
+				    "id": "@ztins.youtube.settings.debug",
+				    "name": "启用调试模式",
+				    "type": "boolean",
+				    "val": false,
+				},
+			],
+			"author": "@可莉",
+			"icons": ["https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/YouTube.png", "https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/YouTube.png"]
+		},
+	]
+}
