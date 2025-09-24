@@ -8,50 +8,75 @@
         {
             "id": "ztins.youtube",
             "name": "YouTube",
-            "descs_html": ["该插件来自<a href=\"https://hub.kelee.one\">可莉仓库</a>", "特别致谢<a href=\"https://github.com/luestr\">可莉</a>大佬", "修改后记得点击底部的\"保存\"。"],
-            "keys": ["ztins.youtube.settings", "ztins.youtube.caches"],
+            "keys": [
+                "ztins.youtube.settings",
+                "ztins.youtube.caches"
+            ],
+            "descs_html": [
+                "该插件来自<a href=\"https://hub.kelee.one\">可莉仓库</a>",
+                "特别致谢<a href=\"https://github.com/luestr\">可莉</a>大佬",
+                "修改后记得点击底部的\"保存\"。"
+            ],
             "settings": [
                 {
-                    "id": "ztins.youtube.settings.upload",
+                    "id": "ztins.youtube.upload",
                     "name": "隐藏上传按钮",
                     "type": "boolean",
-                    "val": true,
+                    "val": true
                 },
                 {
-                    "id": "ztins.youtube.settings.shorts",
+                    "id": "ztins.youtube.shorts",
                     "name": "隐藏Shorts按钮",
                     "type": "boolean",
-                    "val": false,
+                    "val": false
                 },
                 {
-                    "id": "ztins.youtube.settings.para",
+                    "id": "ztins.youtube.para",
                     "name": "隐藏选段按钮",
                     "type": "boolean",
-                    "val": false,
+                    "val": false
                 },
                 {
-                    "id":"ztins.youtube.settings.cctrans",
+                    "id": "ztins.youtube.cctrans",
                     "name": "字幕翻译语言",
                     "type": "selects",
                     "val": "zh-Hans",
-                    "items": [{ "key": "zh-Hans", "label": "中文简体" }, { "key": "zh-Hant", "label": "中文繁体" }, { "key": "ja", "label": "日语" }, {"key": "ko", "label": "韩语" }, {"key": "en", "label": "英语" }, {"key": "off", "label": "关闭" }],
+                    "items": [
+                        {"key": "zh-Hans", "label": "中文简体"},
+                        {"key": "zh-Hant", "label": "中文繁体"},
+                        {"key": "ja", "label": "日语"},
+                        {"key": "ko", "label": "韩语"},
+                        {"key": "en", "label": "英语"},
+                        {"key": "off", "label": "关闭"}
+                    ]
                 },
                 {
-                    "id": "ztins.youtube.settings.lyctrans",
+                    "id": "ztins.youtube.lyctrans",
                     "name": "歌词翻译语言",
                     "type": "selects",
                     "val": "zh-Hans",
-                    "items": [{ "key": "zh-Hans", "label": "中文简体" }, { "key": "zh-Hant", "label": "中文繁体" }, { "key": "ja", "label": "日语" }, {"key": "ko", "label": "韩语" }, {"key": "en", "label": "英语" }, {"key": "off", "label": "关闭" }],
+                    "items": [
+                        {"key": "zh-Hans", "label": "中文简体"},
+                        {"key": "zh-Hant", "label": "中文繁体"},
+                        {"key": "ja", "label": "日语"},
+                        {"key": "ko", "label": "韩语"},
+                        {"key": "en", "label": "英语"},
+                        {"key": "off", "label": "关闭"}
+                    ]
                 },
                 {
-                    "id": "ztins.youtube.settings.debug",
+                    "id": "ztins.youtube.debug",
                     "name": "启用调试模式",
                     "type": "boolean",
-                    "val": false,
-                },
+                    "val": false
+                }
             ],
-        "author": "@可莉",
-        "icons": ["https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/YouTube.png", "https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/YouTube.png"]
-        },
+            "author": "@可莉",
+            "repo": "https://github.com/ztins/ios_scripts/tree/main/youtube",
+            "icons": [
+                "https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/YouTube.png",
+                "https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/YouTube.png"
+            ]
+        }
     ]
 }
