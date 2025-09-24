@@ -1,0 +1,26 @@
+name: |-
+  Cubox 解锁
+desc: |-
+  Cubox 解锁 Pro，大陆地区和海外地区都可解锁
+icon: |-
+  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Cubox.png
+category: |-
+  解锁
+
+http:
+
+  mitm:
+    - "cubox.*"
+
+  script:
+    - match: ^https:\/\/cubox\.(pro|cc)\/c\/api\/userInfo
+      name: "Cb_8"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "Cb_8":
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Cb.js
+    interval: 86400
