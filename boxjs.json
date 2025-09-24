@@ -8,7 +8,7 @@
         {
             "id": "ztins.youtube",
             "name": "YouTube",
-            "descs_html": ["该插件来自<a href=\"https://hub.kelee.one/">可莉仓库</a>", "特别致谢<a href=\"https://github.com/luestr">可莉</a>大佬", "修改后记得点击底部的\"保存\"。"],
+            "descs_html": ["该插件来自<a href=\"https://hub.kelee.one\">可莉仓库</a>", "特别致谢<a href=\"https://github.com/luestr\">可莉</a>大佬", "修改后记得点击底部的\"保存\"。"],
             "keys": ["ztins.youtube.settings", "ztins.youtube.caches"],
             "settings": [
                 {
