@@ -1,0 +1,17 @@
+#!name = Goodnotes & Notability 解锁
+#!desc = Goodnotes 6 一次性付费和 Notability Plus 解锁
+#!author = 𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑[https://github.com/ddgksf2013]
+#!homepage = https://github.com/ddgksf2013/ddgksf2013
+#!icon=https://raw.githubusercontent.com/ztins/ios_scripts/refs/heads/main/icons/Goodnotes.png
+
+[Argument]
+unlockG = switch, true, false, tag = Goodnotes 解锁
+unlockN = switch, true, false, tag = Notability 解锁
+
+[Script]
+http-response ^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts$|subscribers\/[^/]+$) script-path=https://gist.githubusercontent.com/ddgksf2013/980624ef4722ee4ca805a74dc61ca9a3/raw/Goodbility.Vip.js, requires-body=true, timeout=60, tag=Goodnotes, enable={unlockG}
+http-request ^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts|subscribers) script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/deleteHeader.js, timeout=60, tag=Delete Header, enable={unlockG}
+http-response ^https?:\/\/notability\.com\/global script-path=https://gist.githubusercontent.com/ddgksf2013/980624ef4722ee4ca805a74dc61ca9a3/raw/Goodbility.Vip.js, requires-body=true, timeout=60, tag=Notability, enable={unlockN}
+
+[MITM]
+hostname = isi.csan.*, notability.com
