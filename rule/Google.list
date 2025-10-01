@@ -1,0 +1,15 @@
+#selected from blackmatrix7's list
+#raw file: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
+
+DOMAIN-KEYWORD,appspot
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,chrome
+DOMAIN-KEYWORD,chromium
+DOMAIN-KEYWORD,doubleclick
+DOMAIN-KEYWORD,go-lang
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,recaptcha
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
