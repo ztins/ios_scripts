@@ -1,0 +1,26 @@
+# 淘宝
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,alibabachengdun.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,tanx.com
+# 京东
+DOMAIN-KEYWORD,360buy
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.cn
+DOMAIN-SUFFIX,jd-ex.cn
+DOMAIN-SUFFIX,jd-ex.com
+DOMAIN-SUFFIX,jd-ex.com.cn
+DOMAIN-SUFFIX,jdl.cn
+DOMAIN-SUFFIX,jdl.com
+DOMAIN-SUFFIX,jdl.com.cn
+DOMAIN-KEYWORD,jingdong
+DOMAIN-KEYWORD,jcloud
+DOMAIN-SUFFIX,baitiao.cn
+DOMAIN-SUFFIX,baitiao.com
+# 拼多多
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pinduoduo.net
+# 闲鱼
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-KEYWORD,xianyu
