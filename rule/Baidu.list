@@ -1,10 +1,13 @@
 # Selected from blackmatrix7's list
 # raw file: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Baidu/Baidu.list
 DOMAIN-KEYWORD,baidu
+DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-KEYWORD,bce-cdn
 DOMAIN-KEYWORD,bcedns
 DOMAIN-SUFFIX,bceapp.com
+DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdcloudapi.com
+DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bddns.cn
 DOMAIN-KEYWORD,bdycdn
 DOMAIN-KEYWORD,bdydns
