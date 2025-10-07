@@ -1,0 +1,32 @@
+# Selected from blackmatrix7's list
+# raw file: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Baidu/Baidu.list
+DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,bce-cdn
+DOMAIN-KEYWORD,bcedns
+DOMAIN-SUFFIX,bceapp.com
+DOMAIN-SUFFIX,bdcloudapi.com
+DOMAIN-SUFFIX,bddns.cn
+DOMAIN-KEYWORD,bdycdn
+DOMAIN-KEYWORD,bdydns
+DOMAIN-KEYWORD,bdysite
+DOMAIN-SUFFIX,baeapps.com
+DOMAIN-SUFFIX,bduapp.com
+DOMAIN-SUFFIX,bdurl.net
+DOMAIN-KEYWORD,duapp
+DOMAIN-KEYWORD,dusdn
+DOMAIN-KEYWORD,fhldns
+DOMAIN-KEYWORD,hao123
+DOMAIN-KEYWORD,hongmeiti
+DOMAIN-KEYWORD,jomodns
+DOMAIN-KEYWORD,openrasp
+DOMAIN-SUFFIX,tieba.com
+DOMAIN-SUFFIX,tiebaimg.com
+DOMAIN-KEYWORD,videomind
+DOMAIN-SUFFIX,wenku.in
+DOMAIN-KEYWORD,yjs-cdn
+DOMAIN-KEYWORD,yunjiasu
+DOMAIN-KEYWORD,zuoyebang
+DOMAIN-SUFFIX,zybang.com
+DOMAIN-KEYWORD,baihangbao
+DOMAIN-KEYWORD,baihangdai
+DOMAIN-KEYWORD,baijincdn
